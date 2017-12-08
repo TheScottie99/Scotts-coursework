@@ -1,13 +1,16 @@
+/*This is for the titles at the top of each page*/
 header{
   margin-top: 1%;
   padding: 1%;
   background-color: #2E4057;
 }
 
+/*This for for all the titles except the homepage title*/
 .CV_Title, .Projects_Title, .Contact_Title{
   text-align: center;
 }
 
+/*This is for the navigation on all pages*/
 nav{
   margin-top: 1%;
   margin-bottom: 1%;
@@ -18,18 +21,22 @@ nav{
   text-align: center;
 }
 
+/*This is changing the colour of the links*/
 A:link{
   color: #53DBB2;
 }
 
+/*This is changing the colour of the links while hovering over them*/
 A:hover{
   color: white;
 }
 
+/*This is changing the colour of the links once they've been visited*/
 A:visited{
   color: red;
 }
 
+/*This is for the main content on the homepage*/
 .Homepage{
   border: 1px solid white;
   margin-left: 25%;
@@ -39,21 +46,25 @@ A:visited{
   text-align: center;
 }
 
+/*This changes the image on the homepage*/
 img{
   height: 50%;
   width: 50%;
   padding: 1%;
 }
 
+/*This is the background to the website*/
 body{
   background-image: url(Background.jpg);
   background-size: cover;
 }
 
+/*This changes the colour of the text for the whole website*/
 *{
   color: white;
 }
 
+/*This is for the table on the CV page*/
 table{
   border: 1px solid white;
   padding: 1%;
@@ -62,6 +73,7 @@ table{
   margin-right: auto;
 }
 
+/*This is changing the tables rows and columns*/
 th, td{
   border: 1px solid white;
   padding-left: 5px;
@@ -69,6 +81,7 @@ th, td{
   text-align: center;
 }
 
+/*This is for the main content on the CV page*/
 .CV{
   border: 1px solid white;
   max-width: 80%;
@@ -79,6 +92,7 @@ th, td{
   text-align: center;
 }
 
+/*This is for my qualifications on the CV page*/
 .Qualifications{
   max-width: 87%;
   margin-left: auto;
@@ -89,6 +103,7 @@ th, td{
   margin-bottom: 1%;
 }
 
+/*This is for my employment/work experience on the CV page*/
 .Employment{
   max-width: 85%;
   margin-left: auto;
@@ -99,16 +114,19 @@ th, td{
   margin-bottom: 2%;
 }
 
+/*This is for my personal information on the CV page*/
 .PersonalInfo{
   border: 1px solid white;
   padding: 1%;
 }
 
+/*This is for my references on the CV page*/
 .References{
   border: 1px solid white;
   padding: 1%;
 }
 
+/*This is for the main content on my projects page*/
 .Projects{
   border: 1px solid white;
   max-width: 80%;
@@ -120,6 +138,7 @@ th, td{
   padding-bottom: 1%;
 }
 
+/*This is for my first project*/
 .Project1{
   max-width: 95%;
   margin-left: auto;
@@ -130,6 +149,7 @@ th, td{
   margin-bottom: 1%;
 }
 
+/*This is for my second project*/
 .Project2{
   max-width: 95%;
   margin-left: auto;
@@ -140,6 +160,7 @@ th, td{
   margin-bottom: 2%;
 }
 
+/*This is for my third project*/
 .Project3{
   max-width: 95%;
   margin-left: auto;
@@ -150,6 +171,7 @@ th, td{
   margin-bottom: 1%;
 }
 
+/*This is for my details on the contact me page*/
 .myDetails{
   border: 1px solid white;
   text-align: center;
@@ -158,10 +180,12 @@ th, td{
   padding: 2%;
 }
 
+/*This is for the twitter feed on the contact me page*/
 .twitter{
  text-align: right;
 }
 
+/*This is for the form in the footer on the contact me page*/
 form{
   border: 1px solid white;
   max-width: 50%;
@@ -172,6 +196,7 @@ form{
   padding: 1%;
 }
 
+/*This is changing the colour of the input button in the form*/
 input{
   color: black;
 }
