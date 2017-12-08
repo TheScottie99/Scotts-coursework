@@ -1,0 +1,100 @@
+<!--declares that we are using html-->
+<!DOCTYPE html>
+<!--sets the language-->
+<html lang="en">
+<!--opening the head tag-->
+  <head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--links my css page to my website-->
+    <link rel="stylesheet" href="general.css">
+
+    <!--Material Design for Bootstrap fonts and icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!--Material Design for Bootstrap CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+    <!--sets the title of the page-->
+    <title>Homepage</title>
+  <!--closes the head tag-->
+  </head>
+
+  <!--starting the main content of the page-->
+  <body>
+
+    <!--This is the header at the top of the page-->
+    <header>
+      <!--using bootstrap to layout this-->
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Scott McDonald</h1>
+            <h4>Cyber Security Student</h4>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--This is the navigation to the other pages in the website-->
+    <nav>
+      <!--states that it shouldn't have any style-->
+      <ul style="list-style: none;">
+
+        <!--using bootstrap to layout this-->
+        <div class="container">
+          <div class="row">
+
+            <div class="col">
+              <!--link to my CV page-->
+              <li><a href="CV.html">My CV</a></li>
+            </div>
+
+            <div class="col">
+              <!--link to my Projects page-->
+              <li><a href="Projects.html">My Projects</a></li>
+            </div>
+
+            <div class="col">
+              <!--link to my Contact me page-->
+              <li><a href="ContactMe.html">Contact Me</a></li>
+            </div>
+
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <!--Initialises the main content of the page-->
+    <main>
+
+      <!--identifies that this section is the main content of my homepage-->
+      <section class="Homepage">
+
+        <!--inserted an image of myself-->
+        <img src="Golf.jpg" alt="Scott McDonald">
+
+        <!--small paragraph about myself-->
+        <div class="About me">
+          <h5>About Me</h5>
+          <p>I am currently studying Cyber Security at Robert Gordon University which is a 4
+            year course. It consists of a variety of topics so that I am best prepared after
+            university. Along with university I have many different past times. I see myself as
+            quite an active person as well because I enjoy most sports and activities and I am always
+            prepared to try something new. I am a fast learner and I am an enthusiatic student. Please
+            feel free to have a look at my CV and projects page for more information about my achievements
+            and what I am capable of achieving.</p>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  </body>
+</html>

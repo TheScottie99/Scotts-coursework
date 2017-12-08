@@ -1,0 +1,177 @@
+header{
+  margin-top: 1%;
+  padding: 1%;
+  background-color: #2E4057;
+}
+
+.CV_Title, .Projects_Title, .Contact_Title{
+  text-align: center;
+}
+
+nav{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  padding-bottom: 5px;
+  background-color: #2E4057;
+  color: white;
+  text-align: center;
+}
+
+A:link{
+  color: #53DBB2;
+}
+
+A:hover{
+  color: white;
+}
+
+A:visited{
+  color: red;
+}
+
+.Homepage{
+  border: 1px solid white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1%;
+  background-color: #2E4057;
+  text-align: center;
+}
+
+img{
+  height: 50%;
+  width: 50%;
+  padding: 1%;
+}
+
+body{
+  background-image: url(Background.jpg);
+  background-size: cover;
+}
+
+*{
+  color: white;
+}
+
+table{
+  border: 1px solid white;
+  padding: 1%;
+  margin: 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td{
+  border: 1px solid white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.CV{
+  border: 1px solid white;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  background-color: #2E4057;
+  text-align: center;
+}
+
+.Qualifications{
+  max-width: 87%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.Employment{
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.PersonalInfo{
+  border: 1px solid white;
+  padding: 1%;
+}
+
+.References{
+  border: 1px solid white;
+  padding: 1%;
+}
+
+.Projects{
+  border: 1px solid white;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #2E4057;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.Project1{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.Project2{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.Project3{
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.myDetails{
+  border: 1px solid white;
+  text-align: center;
+  position: absolute;
+  background-color: #2E4057;
+  padding: 2%;
+}
+
+.twitter{
+ text-align: right;
+}
+
+form{
+  border: 1px solid white;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #2E4057;
+  padding: 1%;
+}
+
+input{
+  color: black;
+}
