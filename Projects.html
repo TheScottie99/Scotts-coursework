@@ -1,0 +1,122 @@
+<!--declares that we are using html-->
+<!DOCTYPE html>
+<!--sets the language-->
+<html lang="en">
+
+  <!--opening the head tag-->
+  <head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--links my css page to my website-->
+    <link rel="stylesheet" href="general.css">
+
+    <!--Material Design for Bootstrap fonts and icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!--Material Design for Bootstrap CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+
+    <!--sets the title of the page-->
+    <title>My Projects</title>
+  <!--closes the head tag-->
+  </head>
+
+  <!--starting the main content of the page-->
+  <body>
+
+    <!--This is the header at the top of the page-->
+    <header class="Projects_Title">
+
+        <h2>My Projects</h2>
+
+    </header>
+
+    <!--This is the navigation to the other pages in the website-->
+    <nav>
+      <!--states that it shouldn't have any style-->
+      <ul style="list-style: none;">
+
+        <!--using bootstrap to layout this-->
+        <div class="container">
+          <div class="row">
+
+            <div class="col">
+              <!--link to my Homepage-->
+              <li><a href="index.html">Home Page</a></li>
+            </div>
+
+            <!--using bootstrap to layout this-->
+            <div class="col">
+              <!--link to my CV page-->
+              <li><a href="CV.html">My CV</a></li>
+            </div>
+
+            <!--using bootstrap to layout this-->
+            <div class="col">
+              <!--link to my Contact me page-->
+              <li><a href="ContactMe.html">Contact Me</a></li>
+            </div>
+
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <!--Initialises the main content of the page-->
+    <main>
+
+      <!--identifies that this section is the main content of my projects page-->
+      <section class="Projects">
+
+        <!--identifies that this section is my first project-->
+        <section class="Project1">
+          <h4>Arduino RC Car!</h4>
+          <p>One of my projects I created an RC car which is controlled through Arduino and processing.
+          I was able to program the arduino board to receive information through processing which was
+          how I managed to use a keyboard to control the motors as well as the horn. The way that
+          processing works is that it receives an input from the user and then it sends that information
+          to arduino so that arduino can do something with that input e.g. processing receives the
+          input 'w' and then sends that to arduino that makes one of the motors run in a certain
+          direction. I also managed to program some LED's which turned on once the light level got
+          below a certain level therefore they acted as headlights for the RC Car. Finally I also
+          connected my phone to processing and secured it to the car so that when I am driving the RC
+          car I will be able to see where the car is going from my computer screen.</p>
+        </section>
+
+        <!--identifies that this section is my second project-->
+        <section class="Project2">
+          <h4>Raspberry Pi Games!</h4>
+          <p>Another project that I have done was creating several different games which could be played
+          on a Raspberry Pi. I coded all of the games using python, specifically the pygame module
+          and it only took me a few days to create a couple of simple games. One the games I created
+          using pygame was the classic, Snake! I was able to code every aspect of the game correctly
+          with only minor setbacks which included when the snake hit the wall it would sometimes
+          say game over but other times it would continue on playing. But it is now a functioning
+          game which can be used on a Raspberry Pi.</p>
+        </section>
+
+        <!--identifies that this section is my third project-->
+        <section class="Project3">
+          <h4>Website For Holiday Makers!</h4>
+          <p>I also created a website which allows customers to find out more information about their
+          chosen destination and hotel to see if they want to go there on holiday. I also able to code
+          all the different pages successfully and I also had a login system so that the user can create
+          an account which can be logged into later on which saves your progress as you compare places.
+          I also had a google maps window which showed the user exactly where they are looking so that
+          they know if it's in the prime location. Finally I also had a feedback page where the user
+          could leave me feedback on what to improve on my website so that it is more accessible
+          for all users.</p>
+        </section>
+      </section>
+
+    </main>
+
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  </body>
+</html>

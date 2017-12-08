@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--links my css page to my website-->
+    <link rel="stylesheet" href="general.css">
+
+    <!--Material Design for Bootstrap fonts and icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+    <!--Material Design for Bootstrap CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
+
+    <title>Contact Me</title>
+
+  </head>
+
+  <body>
+
+    <!--This is the header at the top of the page-->
+    <header class="Contact_Title">
+
+        <h2>Contact Me</h2>
+
+    </header>
+
+    <!--This is the navigation to the other pages in the website-->
+    <nav>
+      <!--states that it shouldn't have any style-->
+      <ul style="list-style: none;">
+
+        <!--using bootstrap to layout this-->
+        <div class="container">
+          <div class="row">
+
+            <div class="col">
+              <!--link to my Homepage-->
+              <li><a href="index.html">Home Page</a></li>
+            </div>
+
+            <!--using bootstrap to layout this-->
+            <div class="col">
+              <!--link to my CV page-->
+              <li><a href="CV.html">My CV</a></li>
+            </div>
+
+            <!--using bootstrap to layout this-->
+            <div class="col">
+              <!--link to my Contact me page-->
+              <li><a href="Projects.html">My Projects</a></li>
+            </div>
+
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <!--Initialises the main content of the page-->
+    <main>
+
+      <!--using bootstrap to layout this-->
+      <div class="container">
+        <div class="row">
+
+          <!--using bootstrap to layout this-->
+          <div class="col">
+
+            <!--Initialises the content for my details-->
+            <div class="myDetails">
+              <h3>My Details</h3>
+
+              <p><u>Home Address:</u> 7 Alexandra Place, Arbroath, DD11 2BQ</p>
+              <p><u>Home Telephone:</u> 01241 434379</p>
+              <p><u>Mobile Number:</u> 07871 782088</p>
+              <p><u>E-mail Address:</u> snmcd@btinternet.com</p>
+
+            </div>
+          </div>
+
+          <!--using bootstrap to layout this-->
+          <div class="col">
+
+            <!--This is the code for the twitter feed-->
+            <div class="twitter">
+              <a class="twitter-timeline"  href="https://twitter.com/search?q=%40Snmcdee" data-widget-id="937651254607646720">Tweets about @Snmcdee</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!--This initialises the footer which appears at the bottom of the page-->
+    <footer>
+
+      <!--This starts the form for comments-->
+      <form>
+        <fieldset>
+          <!--This sets the title at the top of the form-->
+          <legend>Feel free to leave a comment/question.</legend>
+
+          <!--This starts an input box for entering your name-->
+          <label for="name">Name:</lebel>
+            <input type="text" name="name" value="" />
+
+          <!--This starts an input box for entering your email-->
+          <label for="email">Email:</label>
+            <input type="text" name="email" value="" />
+
+          <!--This starts an input box for entering your comment/question-->
+          <label for="comments">Comment:</label>
+          <textarea name="comments" cols="45" rows="5">
+          </textarea>
+            <!--This starts an submit box which submits the form-->
+            <input type="submit" value="Submit" />
+
+        </fieldset>
+      </form>
+
+    </footer>
+
+    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+
+  </body>
+</html>
